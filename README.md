@@ -1,3 +1,14 @@
+<p align="center">
+    <a href="/">
+        <img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build" />
+    </a>
+    <a href="/">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
+    </a>
+    <a href="https://www.researchgate.net/profile/Md_Razu_Ahmed">
+        <img src="https://img.shields.io/badge/contact%40-razuahmed-red.svg" alt="Twitter: @razuahmed" />
+    </a>
+</p>
 
 This is a template to be used when creating ReadMe files for your Github repositories.
 # Read Me Template
