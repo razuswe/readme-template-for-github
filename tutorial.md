@@ -17,8 +17,8 @@ $ git --version
 
 # Configure git’s settings
 
-$ git config --global user.name "SD Shoriot"
-$ git config --global user.email "sdshoriot@gmail.com"
+$ git config --global user.name "razuswe"
+$ git config --global user.email "swe.razu@gmail.com"
 2. How to connect repo with github or bitbucket?
 # To create a new repo on github or bitbucket.
 # Open terminal & change the current working directory to your local project.
@@ -27,7 +27,7 @@ $ git init
 
 $ git status
 $ git add (file name.py) or $ git add .
-$ git commit -m "update sdshoriot project"
+$ git commit -m "update razu's project"
 
 $ git remote add origin (repository URL)
  
@@ -35,7 +35,7 @@ $ git push origin master
 3. For connected repo.
 $ git status
 $ git add (file name.py) or $ git add .
-$ git commit -m "update sdshoriot project"
+$ git commit -m "update rony's project"
 $ git push origin master
 4. How to start clone project?
 1. git clone...
@@ -52,12 +52,12 @@ $ pip install -r requirements.txt
 1. How to create a new branch?
 
 # To create branch
-$ git branch shoriot
+$ git branch Rony
 
 # To check branch
 $ git branch 
 * master
- shoriot
+ Rony
 
 # To active branch
 $ git checkout shoriot
@@ -65,23 +65,23 @@ $ git checkout shoriot
 
 2. How to merge a branch?
 
-# শুধু মাত্র master branch থেকেই merge করা যাবে, অন্য কোনো branch থেকে merge করা যাবে না।
-# merge করার সময় অবশ্যই master branch active থাকতে হবে।
-# যেই branch merge করতে চাই, সেই branch এর নাম দিতে হবে git merge লেখার পর
+### শুধু মাত্র master branch থেকেই merge করা যাবে, অন্য কোনো branch থেকে merge করা যাবে না।
+### merge করার সময় অবশ্যই master branch active থাকতে হবে।
+### যেই branch merge করতে চাই, সেই branch এর নাম দিতে হবে git merge লেখার পর
 $ git checkout master () 
-$ git merge shoriot
+$ git merge Razu
 
-# pull করা লাগবে, যদি কোনো branch এর কোড নিজের লোকাল মেশিনে আনতে চান। 
-$ git pull origin harun # যেই branch থেকে pull করবা সেই branch এর নাম।
+### pull করা লাগবে, যদি কোনো branch এর কোড নিজের লোকাল মেশিনে আনতে চান। 
+$ git pull origin Rony # যেই branch থেকে pull করবা সেই branch এর নাম।
 
-# যেকোন branch থেকে pull করার পর নিম্মের কোড ইউস করতে হবে,
-$ git pull --rebase origin shoriot(branch name)
+### যেকোন branch থেকে pull করার পর নিম্মের কোড ইউস করতে হবে,
+$ git pull --rebase origin Rony(branch name)
 
 
-# যেই  branch এ কোড push করবা সেই branch active করে কাজ করতে হবে।
+### যেই  branch এ কোড push করবা সেই branch active করে কাজ করতে হবে।
 $ git status
 $ git add (file name.py) or $ git add .
-$ git commit -m "update sdshoriot project"
+$ git commit -m "update razu's project"
 $ git push origin shoriot
 
 
